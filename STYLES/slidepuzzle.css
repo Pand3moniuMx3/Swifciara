@@ -130,7 +130,7 @@ h2 {
 }
 @media (max-width: 860px) {
     .animated {
-        height: 200%;
+        height: 100%;
     }
 }
 #gradient-canvas {
