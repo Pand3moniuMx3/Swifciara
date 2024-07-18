@@ -1,0 +1,19 @@
+<svg width="420" height="260" viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="BcgGradient" clip-path="url(#clip0_198_3)">
+<circle class="gradient-ball" id="EllipseGradientTwo" cx="242" cy="106" r="124" fill="url(#paint6_radial_198_3)"/>
+<ellipse class="gradient-ball" id="EllipseGradientOne" cx="105" cy="188" rx="172" ry="134" fill="url(#paint7_radial_198_3)"/>
+</g>
+<defs>
+<radialGradient id="paint6_radial_198_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(242 106) rotate(90) scale(124)">
+<stop stop-color="#FFB800" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#FFB800" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint7_radial_198_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(105 188) rotate(90) scale(134 172)">
+<stop stop-color="#FFF500" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#FFF500" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_198_3">
+<rect width="420" height="260" fill="white"/>
+</clipPath>
+</defs>
+</svg>
