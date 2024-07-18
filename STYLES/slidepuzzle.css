@@ -33,7 +33,7 @@ body {
     overflow-x: hidden;
 
     width: 100%;
-    height: 100vh;
+    height: 100%;
     min-height: 100vh;
 }
 p, button, a {
@@ -58,7 +58,8 @@ h2 {
     align-items: center;
     
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
+	padding: 25px;
 }
 #start-container {
     width: 100%;
@@ -152,8 +153,8 @@ h2 {
     gap: 2rem;
 
     width: 100%;
-    height: 100%;
-    padding: 2rem;
+    min-height: 100vh
+    padding: 25px;
 
     z-index: -2;
 }
@@ -221,7 +222,7 @@ h2 {
 #fight-section {
     width: 100%;
     min-height: 100%;
-    padding: 2rem;
+    padding: 25px;
     gap: 1.5rem;
 
     display: none;
@@ -358,7 +359,7 @@ h2 {
 	gap: 1.5rem;
 
 	width: 100%;
-	height: 100%;
+	height: 100vh;
     padding: 0 25px;
 
 	justify-content: center;
@@ -458,7 +459,7 @@ h2 {
     align-items: center;
     gap: 1.5rem;
 
-    padding: 0 25px;
+    padding: 25px;
 }
 #maciej-section h2 {
     text-align: center;
@@ -556,7 +557,7 @@ h2 {
     .card-graphic {
         min-height: 200px;
     }
-    .surprise-popup img {
+    .surprise-popup img, #wrong-popup img {
         max-width: 270px;
     }
 }
@@ -571,7 +572,7 @@ h2 {
     .card-graphic {
         min-height: 175px;
     }
-    .surprise-popup img {
+    .surprise-popup img, #wrong-popup img {
         max-width: 225px;
     }
 }
