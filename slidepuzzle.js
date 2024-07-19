@@ -1,7 +1,10 @@
 /*--------------------------- START TO SLIDE PUZZLE ---------------------------*/
-document.getElementById('start-button').addEventListener('click', function() {
-    document.getElementById('start').style.display = 'none';
-    document.getElementById('slider-game-section').style.display = 'flex'
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("start-button").addEventListener("click", function() {
+      // Hide the slider-game-section and show the fight-section
+      document.getElementById('start').style.display = "none";
+      document.getElementById('slider-game-section').style.display = "flex";
+  });
 });
 
 /*--------------------------- SLIDE PUZZLE ---------------------------*/
