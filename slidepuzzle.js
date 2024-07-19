@@ -51,7 +51,7 @@ function startSliderGame() {
 
 // Timer variables
 let timer;
-const TIMER_DURATION = 5 * 60 * 100; // 5 minutes in milliseconds
+const TIMER_DURATION = 3 * 60 * 1000; // 5 minutes in milliseconds
 
 // Start timer function
 function startTimer() {
